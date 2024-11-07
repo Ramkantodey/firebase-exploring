@@ -1,4 +1,5 @@
-import SigninWithGoogle from "./SigninWithGoogle/SigninWithGoogle"
+import SigninWithFB from "./SigninWithFB/SigninWithFB"
+// import SigninWithGoogle from "./SigninWithGoogle/SigninWithGoogle"
 
 function App() {
 
@@ -6,7 +7,9 @@ function App() {
   return (
     <>
 
-      <SigninWithGoogle></SigninWithGoogle>
+      {/* <SigninWithGoogle></SigninWithGoogle> */}
+
+      <SigninWithFB></SigninWithFB>
 
     </>
   )
